@@ -1,0 +1,13 @@
+#include<stdio.h>
+int printNo(int n){
+    if(n==0) return 0;
+    printf("%d\n",n);
+    printNo(n-1);
+}
+int main(){
+    int n;
+    printf("Enter any no:");
+    scanf("%d",&n);
+    printNo(n);
+    return 0;
+}
