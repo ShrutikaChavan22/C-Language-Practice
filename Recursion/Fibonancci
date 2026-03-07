@@ -1,0 +1,12 @@
+//Make a function which calculates nth fibonancci number using recursion
+#include<stdio.h>
+int fibbo(int n){
+    if(n==1 || n==2) return 1;
+    return fibbo(n-1)+fibbo(n-2);
+}
+int main(){
+    int n;
+    printf("Enter any no:");
+    scanf("%d",&n);
+    printf("%d",fibbo(n));
+}
