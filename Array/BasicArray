@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	int arr[5]={10,30,20,55,34},i;
+	printf("Array Elements are:");
+	for(i=0;i<5;i++){
+	   printf("%d\t",arr[i]);	
+	}
+	return 0;
+}
